@@ -5,3 +5,46 @@
     padding-left: 5vw;
     padding-right: 5vw;
 }
+/* Divs vacíos para probar el sticky */
+.black-bg {
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+}
+.gray-bg {
+    background-color: gray;
+    height: 50vh;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #231f20;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-div {
+    flex: 1;
+    margin: 40px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.subfooter {
+    width: 100vw;
+    text-align: center;
+    padding: 30px;
+    background-color: gray;
+    color: white;
+}
+.social-icon {
+    margin-right: 4px;
+}
+.footer-margin {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
