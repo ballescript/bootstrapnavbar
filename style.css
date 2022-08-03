@@ -1,9 +1,10 @@
 .dropdown-header {
     color: #2c2f88;
 }
-.navbar {
-    padding-left: 5vw;
-    padding-right: 5vw;
+.container-fluid {
+    padding: 0;
+    width: 90vw;
+    margin: auto;
 }
 /* Divs vacíos para probar el sticky */
 .black-bg {
@@ -17,20 +18,26 @@
     width: 100%;
 }
 
-footer {
-    display: flex;
-    flex-wrap: wrap;
+footer {    
     background-color: #231f20;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.footer-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    gap: 5vw;
+}
 .footer-div {
     flex: 1;
-    margin: 40px;
+    min-width: 120px;
 }
 .footer-div-left {
     flex: 2;
+    min-width: 300px;
 }
 footer a{
     color: white;
