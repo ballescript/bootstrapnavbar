@@ -33,7 +33,7 @@ footer {
 }
 .footer-div {
     flex: 1;
-    min-width: 120px;
+    min-width: 160px;
 }
 .footer-div-left {
     flex: 2;
