@@ -20,7 +20,6 @@
 footer {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     background-color: #231f20;
     color: white;
     padding-top: 20px;
@@ -30,6 +29,9 @@ footer {
     flex: 1;
     margin: 40px;
 }
+.footer-div-left {
+    flex: 2;
+}
 footer a{
     color: white;
     text-decoration: none;
@@ -37,14 +39,20 @@ footer a{
 .subfooter {
     width: 100vw;
     text-align: center;
-    padding: 30px;
-    background-color: gray;
-    color: white;
 }
 .social-icon {
     margin-right: 4px;
 }
-.footer-margin {
-    margin-left: 10vw;
-    margin-right: 10vw;
+
+.map {
+    text-align: center;
+    min-width: 300px;
+}
+.footer-title {
+    margin-top: 36px;
+}
+.subfooter {
+    margin-bottom: 40px;
+    width: 80vw;
+    margin: auto;
 }
